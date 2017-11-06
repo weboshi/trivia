@@ -90,5 +90,5 @@ startQuiz();
 $("#button").on("click", function(event) {
     checkAnswers();
     endQuiz();
-    $("#button").html("");
+     $("#button").hide();
 })
